@@ -1,0 +1,118 @@
+/**************** tags ****************/
+html, body {
+	font-weight: 100;
+}
+
+/**************** id's ****************/
+#banner-title {
+	font-weight: 100;
+	text-shadow: 2px 2px 3px #ccc;
+	float: left;
+	margin-left: 25px;
+}
+
+#banner-logo {
+	float: right;
+	margin-right: 0px;
+}
+
+#calculate-btn {
+	margin-bottom: 30px;
+}
+
+#calculator {
+	background-color: rgba(154, 154, 150, 0.7);
+	height: auto;
+	max-width: 600px;
+	border: 1px solid #fefefa;
+	border-radius: 10px;
+	margin: 0 auto;
+	color: rgb(250, 250, 250);
+}
+
+#github-icon {
+	font-size: 1.5em;
+}
+
+#github-link {
+	color: inherit;
+}
+
+#nav-btn {
+	float: right;
+}
+
+#page-container {
+	max-width: 800px;
+	margin-top: 30px;
+	padding: 30px
+}
+
+#page-footer {
+	margin-top: 60px;
+}
+
+#reg-page-login-btn {
+	margin-top: 20px;
+	width: 140px;
+	float: right;
+}
+
+#reg-page-reg-btn {
+	margin-top: 20px;
+	width: 140px;
+	float: left;
+}
+
+/**************** classes ****************/
+.content-title {
+	font-weight: 100;
+	text-shadow: 2px 2px 3px #ccc;
+	margin-top: 20px;
+}
+
+.content-container {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.form-container {
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+.navbar li {
+	border-right: 1px solid #aaa;
+}
+
+.navbar li:last-child {
+	border-right: none;
+}
+
+/**************** media queries ****************/
+@media (max-width: 400px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
